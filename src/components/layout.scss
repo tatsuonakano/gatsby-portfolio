@@ -1,0 +1,22 @@
+@charset "utf-8";
+@import "variable-declare.scss";
+
+// scss本文
+
+body {
+  text-align: center;
+  width:100%;
+  margin: 0 auto;
+  background-color: $lavender-color;
+  color: $white-color;
+}
+
+.main-bar {
+  margin: 7px 0px 0px 0px;
+  background-color: $night-sky-color;
+}
+
+.m-p-reset {
+  margin: $reset;
+  padding: $reset;
+}

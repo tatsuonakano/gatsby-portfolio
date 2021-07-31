@@ -1,0 +1,28 @@
+@charset "utf-8";
+// このscssファイルは変数宣言専用ファイルです。
+// ほかのscssファイルからインポートして使用してください
+
+// グローバル変数宣言
+// 色変数宣言
+$white-color: white;
+$night-sky-color: #000061;
+$orange-color: #FF6600;
+$star-color: #FFFF00;
+$lavender-color: #9090f3;
+
+// 細々したパーツ
+$box-radius:10px;
+$content-padding:10px 5px 5px 20px;
+$reset:0px;
+
+// ニューモフィズム変数宣言
+// 凸
+$convex-neumorphism: 25px 25px 49px #000052,
+-25px -25px 49px #000070;
+// 凹
+$concave-neumorphism: inset 25px 25px 49px #000052,
+inset -25px -25px 49px #000070;
+
+// cssアニメーション
+
+// 変数宣言終わり
