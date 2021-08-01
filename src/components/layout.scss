@@ -12,11 +12,11 @@ body {
 }
 
 .main-bar {
-  margin: 7px 0px 0px 0px;
+  margin: 7px 0;
+  padding: 7px 20px;
   background-color: $night-sky-color;
 }
 
-.m-p-reset {
-  margin: $reset;
-  padding: $reset;
+.centering-margin {
+  margin: 0 auto;
 }

@@ -2,8 +2,22 @@
 @import "variable-declare.scss";
 
 .sub-bar {
-  margin: 7px 0px 0px 0px;
+  margin: 7px 0px 14px 0px;
   background-color: $night-sky-color;
   width: auto;
   height: auto;
+}
+
+.profile {
+  width: auto;
+  background-color: $site-sub-color;
+  margin-bottom: $faint-gap;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+.faint-two-gap {
+  padding-bottom: $faint-two-gap;
 }

@@ -7,3 +7,51 @@
   width: auto;
   height: auto;
 }
+.site-sub-color {
+  background-color: $site-sub-color;
+}
+.icon-btn {
+
+  margin: 2px;
+}
+
+.icon-btn-photoshop {
+  margin: 2px;
+}
+
+.icon-btn-illustrator {
+  margin: 2px;
+}
+
+.icon-btn-xd {
+  margin: 2px;
+}
+
+.icon-btn-lightroom {
+  margin: 2px;
+}
+
+.icon-btn-premiere {
+  margin: 2px;
+}
+
+.icon-btn-photoshop:hover {
+  background-color: $photoshop-bg;
+  color: $photoshop-text;
+}
+.icon-btn-illustrator:hover {
+  background-color: $illustrator-bg;
+  color: $illustrator-text;
+}
+.icon-btn-xd:hover {
+  background-color: $xd-bg;
+  color: $xd-text;
+}
+.icon-btn-lightroom:hover {
+  background-color: $lightroom-gb;
+  color: $lightroom-text;
+}
+.icon-btn-premiere:hover {
+  background-color: $premiere-bg;
+  color: $premiere-text;
+}

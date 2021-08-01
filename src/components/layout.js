@@ -11,6 +11,7 @@ import Header from "./header"
 import IconBar from "./iconBar"
 import SubBar from "./subBar"
 import Footer from "./footer"
+import SiteMap from "./siteMap"
 import 'bootstrap/dist/css/bootstrap-reboot.min.css'; // リセットcss
 import 'bootstrap/dist/css/bootstrap.min.css'; // ← 追加bootstrap本体
 import './layout.scss';
@@ -30,13 +31,14 @@ const Layout = ({ children }) => {
     <>
       <body>
         <Header siteTitle={data.site.siteMetadata ?.title || `Title`} />
-        <div className="container m-p-reset">
-          <div className="row m-p-reset">
+        <div className="container centering-margin">
+          <div className="row centering-margin">
             <IconBar />
-            <main className="col-7 main-bar">{children} <Footer /></main>
+            <main className="col-md-7 col-xs-12 main-bar">{children} <Footer /></main>
             <SubBar />
           </div>
         </div>
+        <SiteMap />
       </body>
     </>
   )

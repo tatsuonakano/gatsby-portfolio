@@ -41,6 +41,10 @@ function Seo({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: "robots",
+          content: "noindex",
+        },
+        {
           property: `og:title`,
           content: title,
         },

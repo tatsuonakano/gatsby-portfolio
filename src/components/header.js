@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Container, Navbar, Nav } from 'react-bootstrap'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   // ↓ 追加
   <>
     <style type="text/css">
@@ -18,15 +18,21 @@ const Header = ({ siteTitle }) => (
     <header className="bg-purple">
       <Container>
         <Navbar expand="md" variant="dark">
-          <Navbar.Brand href="/">{siteTitle}</Navbar.Brand>
+          <Navbar.Brand href="/">My portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarResponsive" />
           <Navbar.Collapse id="navbarResponsive">
             <Nav as="ul" className="ml-auto">
               <Nav.Item as="li">
-                <Link to="/patients" className="nav-link" activeClassName="active">患者の方へ</Link>
+                <Link to="/" className="nav-link" activeClassName="active">このサイトについて</Link>
               </Nav.Item>
               <Nav.Item as="li">
-                <Link to="/doctors" className="nav-link" activeClassName="active">医師の方へ</Link>
+                <Link to="/" className="nav-link" activeClassName="active">サイト内部使用技術解説</Link>
+              </Nav.Item>
+              <Nav.Item as="li">
+                <Link to="/" className="nav-link" activeClassName="active">ストックフォト</Link>
+              </Nav.Item>
+              <Nav.Item as="li">
+                <Link to="/" className="nav-link" activeClassName="active">Adobe 作例</Link>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>

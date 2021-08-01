@@ -1,5 +1,4 @@
 //footer.js
-import { Link } from "gatsby"
 import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'; // ← 追加
 
